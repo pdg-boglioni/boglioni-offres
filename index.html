@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+"""<!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="utf-8">
@@ -6,7 +6,7 @@
   <title>BOGLIONI — Contrats d’entretien (Flyer + Souscription)</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    @media print { .print\:hidden { display: none !important; } }
+    @media print { .print\\:hidden { display: none !important; } }
   </style>
 </head>
 <body class="min-h-screen w-full bg-neutral-50 text-neutral-900">
@@ -30,356 +30,410 @@
 
   <main>
     <section id="flyerSection">
-<section class="mx-auto max-w-6xl px-6 py-8">
-  <div class="rounded-2xl border border-yellow-400/50 bg-white p-6 shadow-sm">
-    <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
-      <div>
-        <h2 class="text-2xl font-bold">Contrats d’entretien – Poêles à granulés et bois &amp; Chaudières gaz et fioul</h2>
-        <p class="text-sm text-neutral-600">Service pro, rapide et soigné • Sécurité, rendement, longévité de vos équipements</p>
-      </div>
-      <div class="rounded-xl bg-yellow-100 px-4 py-2 text-yellow-900 font-semibold">
-        OFFRE DUO : <span class="underline">–50 %</span> sur le 2ᵉ système (chaudière gaz/fioul, poêle (granulés ou bois) ou insert) le même jour &amp; à la même adresse*
-      </div>
-    </div>
-  </div>
-</section>
+      <section class="mx-auto max-w-6xl px-6 py-8">
+        <div class="rounded-2xl border border-yellow-400/50 bg-white p-6 shadow-sm">
+          <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+            <div>
+              <h2 class="text-2xl font-bold">Contrats d’entretien – Poêles à granulés et bois &amp; Chaudières gaz et fioul</h2>
+              <p class="text-sm text-neutral-600">Service pro, rapide et soigné • Sécurité, rendement, longévité de vos équipements</p>
+            </div>
+            <div class="rounded-xl bg-yellow-100 px-4 py-2 text-yellow-900 font-semibold">
+              OFFRE DUO : <span class="underline">–50 %</span> sur le 2ᵉ système (chaudière gaz/fioul, poêle (granulés ou bois) ou insert) le même jour &amp; à la même adresse*
+            </div>
+          </div>
+        </div>
+      </section>
 
-<section class="mx-auto max-w-6xl px-6 pb-8">
-  <div class="mb-4 flex items-end justify-between">
-    <h3 class="text-xl font-bold">Forfaits Poêle à granulés et bois</h3>
-    <p class="text-xs text-neutral-600">Frais de déplacement : 20 à 60 € selon la distance d’intervention et le nombre de techniciens déployés.</p>
-  </div>
-  <div class='grid gap-6 md:grid-cols-3'>
-    <div class="relative rounded-2xl border bg-white p-6 shadow-sm">
-      <div class="absolute -top-3 left-4 rounded-full bg-yellow-400 px-3 py-1 text-xs font-semibold text-black shadow">Poêle à granulés et bois</div>
-      <div class="mt-2 rounded-2xl bg-gradient-to-r from-amber-700 to-amber-600 p-4 text-white shadow-inner">
-        <div class="flex items-baseline justify-between">
-          <h4 class="text-lg font-semibold">Bronze</h4>
-          <div class="text-2xl font-bold">90 €</div>
+      <!-- POELES -->
+      <section class="mx-auto max-w-6xl px-6 pb-8">
+        <div class="mb-4 flex items-end justify-between">
+          <h3 class="text-xl font-bold">Forfaits Poêle à granulés et bois</h3>
+          <p class="text-xs text-neutral-600">Frais de déplacement : 20 à 60 € selon la distance d’intervention et le nombre de techniciens déployés.</p>
         </div>
-        <p class="mt-1 text-xs opacity-90">L’essentiel sécurité & conformité</p>
-      </div>
-      <ul class="mt-4 space-y-2 text-sm"><li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Ramonage du conduit</span></li>
-<li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Inspection visuelle</span></li>
-<li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Aspiration des émanations</span></li></ul>
-      <div class="mt-4 flex items-center justify-between text-xs text-neutral-500">
-        <span>Sans engagement</span>
-        <span>Tarif unitaire</span>
-      </div>
-    </div>
-    
-    <div class="relative rounded-2xl border bg-white p-6 shadow-sm">
-      <div class="absolute -top-3 left-4 rounded-full bg-yellow-400 px-3 py-1 text-xs font-semibold text-black shadow">Poêle à granulés et bois</div>
-      <div class="mt-2 rounded-2xl bg-gradient-to-r from-zinc-600 to-zinc-500 p-4 text-white shadow-inner">
-        <div class="flex items-baseline justify-between">
-          <h4 class="text-lg font-semibold">Argent</h4>
-          <div class="text-2xl font-bold">190 €</div>
+        <div class='grid gap-6 md:grid-cols-3'>
+          <!-- Bronze -->
+          <div class="relative rounded-2xl border bg-white p-6 shadow-sm">
+            <div class="absolute -top-3 left-4 rounded-full bg-yellow-400 px-3 py-1 text-xs font-semibold text-black shadow">Poêle à granulés et bois</div>
+            <div class="mt-2 rounded-2xl bg-gradient-to-r from-amber-700 to-amber-600 p-4 text-white shadow-inner">
+              <div class="flex items-baseline justify-between">
+                <h4 class="text-lg font-semibold">Bronze</h4>
+                <div class="text-2xl font-bold">80 €</div>
+              </div>
+              <p class="mt-1 text-xs opacity-90">L’essentiel sécurité &amp; conformité</p>
+            </div>
+            <ul class="mt-4 space-y-2 text-sm">
+              <li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Ramonage du conduit</span></li>
+              <li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Inspection visuelle</span></li>
+              <li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Aspiration des émanations</span></li>
+            </ul>
+            <div class="mt-4 flex items-center justify-between text-xs text-neutral-500">
+              <span>Sans engagement</span>
+              <span>Tarif net</span>
+            </div>
+          </div>
+          
+          <!-- Argent -->
+          <div class="relative rounded-2xl border bg-white p-6 shadow-sm">
+            <div class="absolute -top-3 left-4 rounded-full bg-yellow-400 px-3 py-1 text-xs font-semibold text-black shadow">Poêle à granulés et bois</div>
+            <div class="mt-2 rounded-2xl bg-gradient-to-r from-green-600 to-emerald-500 p-4 text-white shadow-inner">
+              <div class="flex items-baseline justify-between">
+                <h4 class="text-lg font-semibold">Argent</h4>
+                <div class="text-2xl font-bold">160 €</div>
+              </div>
+              <p class="mt-1 text-xs opacity-90">Performance &amp; durée de vie</p>
+            </div>
+            <ul class="mt-4 space-y-2 text-sm">
+              <li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Ramonage + entretien complet</span></li>
+              <li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Nettoyage vitre &amp; panneaux</span></li>
+              <li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Nettoyage ventilateur tangentiel &amp; extracteur</span></li>
+              <li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Dépoussiérage interne</span></li>
+              <li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Conseils d’utilisation</span></li>
+            </ul>
+            <div class="mt-4 flex items-center justify-between text-xs text-neutral-500">
+              <span>Engagement 2 ans</span>
+              <span>Tarif net</span>
+            </div>
+          </div>
+          
+          <!-- Or -->
+          <div class="relative rounded-2xl border bg-white p-6 shadow-sm ring-2 ring-yellow-400">
+            <div class="absolute -top-3 left-4 rounded-full bg-yellow-400 px-3 py-1 text-xs font-semibold text-black shadow">Poêle à granulés et bois</div>
+            <div class="mt-2 rounded-2xl bg-gradient-to-r from-yellow-600 to-yellow-500 p-4 text-white shadow-inner">
+              <div class="flex items-baseline justify-between">
+                <h4 class="text-lg font-semibold">Or</h4>
+                <div class="text-2xl font-bold">240 €</div>
+              </div>
+              <p class="mt-1 text-xs opacity-90">Sérénité totale</p>
+            </div>
+            <ul class="mt-4 space-y-2 text-sm">
+              <li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Tout le forfait Argent</span></li>
+              <li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Vérification électronique &amp; motoréducteur</span></li>
+              <li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Assistance dépannage 7/7j</span></li>
+              <li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Main-d’œuvre gratuite en cas de dépannage (hors déplacement)</span></li>
+              <li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Priorité client</span></li>
+            </ul>
+            <div class="mt-4 flex items-center justify-between text-xs text-neutral-500">
+              <span>Engagement 3 ans</span>
+              <span>Tarif net</span>
+            </div>
+          </div>
         </div>
-        <p class="mt-1 text-xs opacity-90">Performance & durée de vie</p>
-      </div>
-      <ul class="mt-4 space-y-2 text-sm"><li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Ramonage + entretien complet</span></li>
-<li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Nettoyage vitre & panneaux</span></li>
-<li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Nettoyage ventilateur tangentiel & extracteur</span></li>
-<li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Dépoussiérage interne</span></li>
-<li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Conseils d’utilisation</span></li></ul>
-      <div class="mt-4 flex items-center justify-between text-xs text-neutral-500">
-        <span>Engagement 2 ans</span>
-        <span>Tarif unitaire</span>
-      </div>
-    </div>
-    
-    <div class="relative rounded-2xl border bg-white p-6 shadow-sm ring-2 ring-yellow-400">
-      <div class="absolute -top-3 left-4 rounded-full bg-yellow-400 px-3 py-1 text-xs font-semibold text-black shadow">Poêle à granulés et bois</div>
-      <div class="mt-2 rounded-2xl bg-gradient-to-r from-yellow-600 to-yellow-500 p-4 text-white shadow-inner">
-        <div class="flex items-baseline justify-between">
-          <h4 class="text-lg font-semibold">Or</h4>
-          <div class="text-2xl font-bold">240 €</div>
-        </div>
-        <p class="mt-1 text-xs opacity-90">Sérénité totale</p>
-      </div>
-      <ul class="mt-4 space-y-2 text-sm"><li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Tout le forfait Argent</span></li>
-<li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Vérification électronique & motoréducteur</span></li>
-<li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Assistance dépannage 7/7j</span></li>
-<li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Main-d’œuvre gratuite en cas de dépannage (hors déplacement)</span></li>
-<li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Priorité client</span></li></ul>
-      <div class="mt-4 flex items-center justify-between text-xs text-neutral-500">
-        <span>Engagement 3 ans</span>
-        <span>Tarif unitaire</span>
-      </div>
-    </div>
-    </div>
-</section>
+      </section>
 
-<section class="mx-auto max-w-6xl px-6 pb-8">
-  <div class="mb-4 flex items-end justify-between">
-    <h3 class="text-xl font-bold">Contrats Chaudières gaz et fioul</h3>
-    <p class="text-xs text-neutral-600">Valable pour murales/sol, basse T° ou condensation (gaz naturel/propane et fioul). Frais de déplacement : 20 à 60 € selon la distance d’intervention et le nombre de techniciens déployés.</p>
-  </div>
-  <div class='grid gap-6 md:grid-cols-3'>
-    <div class="relative rounded-2xl border bg-white p-6 shadow-sm">
-      <div class="absolute -top-3 left-4 rounded-full bg-yellow-400 px-3 py-1 text-xs font-semibold text-black shadow">Chaudière gaz et fioul</div>
-      <div class="mt-2 rounded-2xl bg-gradient-to-r from-sky-700 to-sky-600 p-4 text-white shadow-inner">
-        <div class="flex items-baseline justify-between">
-          <h4 class="text-lg font-semibold">Bronze</h4>
-          <div class="text-2xl font-bold">149 €</div>
+      <!-- CHAUDIERES -->
+      <section class="mx-auto max-w-6xl px-6 pb-8">
+        <div class="mb-4 flex items-end justify-between">
+          <h3 class="text-xl font-bold">Contrats Chaudières gaz et fioul</h3>
+          <p class="text-xs text-neutral-600">Valable pour murales/sol, basse T° ou condensation (gaz naturel/propane et fioul). Frais de déplacement : 20 à 60 € selon la distance d’intervention et le nombre de techniciens déployés.</p>
         </div>
-        <p class="mt-1 text-xs opacity-90">Sécurité & conformité</p>
-      </div>
-      <ul class="mt-4 space-y-2 text-sm"><li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Entretien annuel réglementaire</span></li>
-<li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Nettoyage brûleur, corps de chauffe, échangeur</span></li>
-<li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Contrôles sécurité (ionisation, thermostats)</span></li>
-<li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Analyse combustion & réglages</span></li>
-<li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Étanchéité gaz/fumées & siphon de condensats</span></li>
-<li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Attestation d’entretien</span></li></ul>
-      <div class="mt-4 flex items-center justify-between text-xs text-neutral-500">
-        <span>Sans engagement</span>
-        <span>Tarif unitaire</span>
-      </div>
-    </div>
-    
-    <div class="relative rounded-2xl border bg-white p-6 shadow-sm">
-      <div class="absolute -top-3 left-4 rounded-full bg-yellow-400 px-3 py-1 text-xs font-semibold text-black shadow">Chaudière gaz et fioul</div>
-      <div class="mt-2 rounded-2xl bg-gradient-to-r from-slate-600 to-slate-500 p-4 text-white shadow-inner">
-        <div class="flex items-baseline justify-between">
-          <h4 class="text-lg font-semibold">Argent</h4>
-          <div class="text-2xl font-bold">199 €</div>
-        </div>
-        <p class="mt-1 text-xs opacity-90">Confort & rendement</p>
-      </div>
-      <ul class="mt-4 space-y-2 text-sm"><li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Tout le Bronze</span></li>
-<li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Purge & rééquilibrage (≤ 5 radiateurs)</span></li>
-<li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Vase d’expansion & pression circuit</span></li>
-<li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Petites fournitures incluses</span></li></ul>
-      <div class="mt-4 flex items-center justify-between text-xs text-neutral-500">
-        <span>Engagement 2 ans</span>
-        <span>Tarif unitaire</span>
-      </div>
-    </div>
-    
-    <div class="relative rounded-2xl border bg-white p-6 shadow-sm ring-2 ring-yellow-400">
-      <div class="absolute -top-3 left-4 rounded-full bg-yellow-400 px-3 py-1 text-xs font-semibold text-black shadow">Chaudière gaz et fioul</div>
-      <div class="mt-2 rounded-2xl bg-gradient-to-r from-emerald-600 to-emerald-500 p-4 text-white shadow-inner">
-        <div class="flex items-baseline justify-between">
-          <h4 class="text-lg font-semibold">Or</h4>
-          <div class="text-2xl font-bold">249 €</div>
-        </div>
-        <p class="mt-1 text-xs opacity-90">Zéro souci</p>
-      </div>
-      <ul class="mt-4 space-y-2 text-sm"><li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Tout le forfait Argent</span></li>
-<li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Assistance dépannage 7/7j</span></li>
-<li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Main-d’œuvre gratuite en cas de dépannage (hors déplacement & pièces)</span></li>
-<li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Priorité d’intervention</span></li></ul>
-      <div class="mt-4 flex items-center justify-between text-xs text-neutral-500">
-        <span>Engagement 3 ans</span>
-        <span>Tarif unitaire</span>
-      </div>
-    </div>
-    </div>
-</section>
+        <div class='grid gap-6 md:grid-cols-3'>
+          <!-- Acier -->
+          <div class="relative rounded-2xl border bg-white p-6 shadow-sm">
+            <div class="absolute -top-3 left-4 rounded-full bg-yellow-400 px-3 py-1 text-xs font-semibold text-black shadow">Chaudière gaz et fioul</div>
+            <div class="mt-2 rounded-2xl bg-gradient-to-r from-gray-600 to-gray-400 p-4 text-white shadow-inner">
+              <div class="flex items-baseline justify-between">
+                <h4 class="text-lg font-semibold">Acier</h4>
+                <div class="text-2xl font-bold">120 €</div>
+              </div>
+              <p class="mt-1 text-xs opacity-90">Entretien réglementaire</p>
+            </div>
+            <ul class="mt-4 space-y-2 text-sm">
+              <li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Entretien annuel réglementaire</span></li>
+              <li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Nettoyage brûleur, corps de chauffe, échangeur</span></li>
+              <li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Contrôles sécurité (ionisation, thermostats)</span></li>
+              <li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Analyse combustion &amp; réglages</span></li>
+              <li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Étanchéité gaz/fumées &amp; siphon de condensats</span></li>
+              <li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Attestation d’entretien</span></li>
+            </ul>
+            <div class="mt-4 flex items-center justify-between text-xs text-neutral-500">
+              <span>Sans engagement</span>
+              <span>Tarif net</span>
+            </div>
+          </div>
 
-<section class="mx-auto max-w-6xl px-6 pb-6">
-  <div class="rounded-xl bg-neutral-100 p-4 text-xs text-neutral-700 leading-relaxed">
-    * Remise appliquée sur le forfait le moins cher. Hors déplacement &amp; pièces. Non cumulable avec d’autres offres. Photos non contractuelles. Prix TTC. Interventions sous réserve d’accessibilité et d’état des installations. Désembouage, pièces détachées et réglages spécifiques hors forfait.
-  </div>
-</section>
-</section>
+          <!-- Cuivre -->
+          <div class="relative rounded-2xl border bg-white p-6 shadow-sm">
+            <div class="absolute -top-3 left-4 rounded-full bg-yellow-400 px-3 py-1 text-xs font-semibold text-black shadow">Chaudière gaz et fioul</div>
+            <div class="mt-2 rounded-2xl bg-gradient-to-r from-orange-700 to-orange-500 p-4 text-white shadow-inner">
+              <div class="flex items-baseline justify-between">
+                <h4 class="text-lg font-semibold">Cuivre</h4>
+                <div class="text-2xl font-bold">180 €</div>
+              </div>
+              <p class="mt-1 text-xs opacity-90">Conformité totale</p>
+            </div>
+            <ul class="mt-4 space-y-2 text-sm">
+              <li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Tout le forfait Acier</span></li>
+              <li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Ramonage du conduit inclus</span></li>
+              <li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Rééquilibrage &amp; purge (≤ 5 radiateurs)</span></li>
+              <li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Vase d’expansion &amp; pression circuit</span></li>
+              <li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Petites fournitures incluses</span></li>
+            </ul>
+            <div class="mt-4 flex items-center justify-between text-xs text-neutral-500">
+              <span>Engagement 2 ans</span>
+              <span>Tarif net</span>
+            </div>
+          </div>
+
+          <!-- Diamant -->
+          <div class="relative rounded-2xl border bg-white p-6 shadow-sm ring-2 ring-yellow-400">
+            <div class="absolute -top-3 left-4 rounded-full bg-yellow-400 px-3 py-1 text-xs font-semibold text-black shadow">Chaudière gaz et fioul</div>
+            <div class="mt-2 rounded-2xl bg-gradient-to-r from-teal-600 to-cyan-400 p-4 text-white shadow-inner">
+              <div class="flex items-baseline justify-between">
+                <h4 class="text-lg font-semibold">Diamant</h4>
+                <div class="text-2xl font-bold">260 €</div>
+              </div>
+              <p class="mt-1 text-xs opacity-90">Sécurité absolue</p>
+            </div>
+            <ul class="mt-4 space-y-2 text-sm">
+              <li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Tout le forfait Cuivre</span></li>
+              <li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Main-d’œuvre gratuite en cas de dépannage</span></li>
+              <li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>1 déplacement inclus par an (hors pièces)</span></li>
+              <li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Assistance dépannage 7/7j</span></li>
+              <li class="flex gap-2"><span class="mt-1 inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400"></span><span>Priorité d’intervention</span></li>
+            </ul>
+            <div class="mt-4 flex items-center justify-between text-xs text-neutral-500">
+              <span>Engagement 3 ans</span>
+              <span>Tarif net</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="mx-auto max-w-6xl px-6 pb-6">
+        <div class="rounded-xl bg-neutral-100 p-4 text-xs text-neutral-700 leading-relaxed">
+          * Remise appliquée sur le forfait le moins cher. Hors déplacement &amp; pièces. Non cumulable avec d’autres offres. Prix <strong>nets</strong> (non assujetti à la TVA – art. 293 B du CGI). Interventions sous réserve d’accessibilité et d’état des installations. Désembouage, pièces détachées et réglages spécifiques hors forfait.
+        </div>
+      </section>
+    </section>
+
+    <!-- FORM SECTION -->
     <section id="formSection" class="hidden">
-<div class="mx-auto max-w-6xl bg-white p-6">
-  <div class="flex items-start justify-between">
-    <div>
-      <h2 class="text-2xl font-bold">Contrat d’entretien — Souscription</h2>
-      <p class="text-sm text-neutral-600">Poêles à granulés et bois • Chaudières gaz et fioul</p>
-    </div>
-    <div class="text-right text-sm">
-      <div class="font-semibold">BOGLIONI Bâtiment &amp; Énergie</div>
-      <div>Tél. 06 44 02 70 07 • 03 82 20 86 18</div>
-      <div>contact@boglioni.fr</div>
-      <div>Lorraine - Grand Est</div>
-      <div>SIREN 890 032 220 — www.boglioni.fr</div>
-    </div>
-  </div>
-
-  <section class="mt-6">
-    <h3 class="mb-2 text-lg font-semibold">1) Informations client</h3>
-    <div class="rounded-xl border bg-white p-4">
-      <div class="grid gap-3 grid-cols-1 md:grid-cols-2">
-        <label class="flex flex-col text-sm"><span class="mb-1 font-medium">Nom / Prénom</span><input class="rounded-lg border px-3 py-2 outline-none focus:ring-2 focus:ring-yellow-400"></label>
-        <label class="flex flex-col text-sm"><span class="mb-1 font-medium">Téléphone</span><input class="rounded-lg border px-3 py-2 outline-none focus:ring-2 focus:ring-yellow-400"></label>
-        <label class="flex flex-col text-sm"><span class="mb-1 font-medium">Email</span><input type="email" class="rounded-lg border px-3 py-2 outline-none focus:ring-2 focus:ring-yellow-400"></label>
-        <label class="flex flex-col text-sm"><span class="mb-1 font-medium">Adresse</span><input class="rounded-lg border px-3 py-2 outline-none focus:ring-2 focus:ring-yellow-400"></label>
-        <label class="flex flex-col text-sm"><span class="mb-1 font-medium">Code postal</span><input class="rounded-lg border px-3 py-2 outline-none focus:ring-2 focus:ring-yellow-400"></label>
-        <label class="flex flex-col text-sm"><span class="mb-1 font-medium">Ville</span><input class="rounded-lg border px-3 py-2 outline-none focus:ring-2 focus:ring-yellow-400"></label>
-      </div>
-    </div>
-  </section>
-
-  <section class="mt-6">
-    <h3 class="mb-2 text-lg font-semibold">2) Système principal (à cocher)</h3>
-    <div class="rounded-xl border bg-white p-4">
-      <div class="grid gap-3 grid-cols-1 md:grid-cols-2">
-        <label class="flex items-center gap-2 text-sm font-medium"><input type="checkbox" class="h-4 w-4 rounded border-neutral-400"><span>Poêle - granulés</span></label>
-        <label class="flex items-center gap-2 text-sm font-medium"><input type="checkbox" class="h-4 w-4 rounded border-neutral-400"><span>Poêle - bois</span></label>
-        <label class="flex items-center gap-2 text-sm font-medium"><input type="checkbox" class="h-4 w-4 rounded border-neutral-400"><span>Chaudière - gaz</span></label>
-        <label class="flex items-center gap-2 text-sm font-medium"><input type="checkbox" class="h-4 w-4 rounded border-neutral-400"><span>Chaudière - fioul</span></label>
-      </div>
-      <div class="grid gap-3 grid-cols-1 md:grid-cols-3 mt-3">
-        <label class="flex flex-col text-sm"><span class="mb-1 font-medium">Marque</span><input class="rounded-lg border px-3 py-2 outline-none focus:ring-2 focus:ring-yellow-400"></label>
-        <label class="flex flex-col text-sm"><span class="mb-1 font-medium">Modèle</span><input class="rounded-lg border px-3 py-2 outline-none focus:ring-2 focus:ring-yellow-400"></label>
-        <label class="flex flex-col text-sm"><span class="mb-1 font-medium">N° de série</span><input class="rounded-lg border px-3 py-2 outline-none focus:ring-2 focus:ring-yellow-400"></label>
-      </div>
-      <div class="grid gap-3 grid-cols-1 md:grid-cols-4 mt-3">
-        <label class="flex flex-col text-sm"><span class="mb-1 font-medium">Puissance (kW)</span><input class="rounded-lg border px-3 py-2 outline-none focus:ring-2 focus:ring-yellow-400"></label>
-        <label class="flex flex-col text-sm"><span class="mb-1 font-medium">Année d’installation</span><input class="rounded-lg border px-3 py-2 outline-none focus:ring-2 focus:ring-yellow-400"></label>
-        <label class="flex flex-col text-sm md:col-span-2"><span class="mb-1 font-medium">Adresse d’intervention (si différente)</span><input class="rounded-lg border px-3 py-2 outline-none focus:ring-2 focus:ring-yellow-400"></label>
-      </div>
-    </div>
-  </section>
-
-  <section class="mt-6">
-    <h3 class="mb-2 text-lg font-semibold">3) Offre choisie (cochez une case)</h3>
-    <div class="rounded-xl border bg-white p-4">
-      <div class="grid grid-cols-1 gap-3 md:grid-cols-3">
-        
-<label class="flex cursor-pointer flex-col gap-2 rounded-xl border p-3">
-  <div class="flex items-center justify-between">
-    <div class="flex items-center gap-3">
-      <input type="checkbox" class="h-5 w-5">
-      <div>
-        <div class="text-base font-semibold">Bronze</div>
-        <div class="text-xs text-neutral-600">Sécurité & conformité</div>
-        <div class="text-xs text-neutral-600"><span class="font-medium">Durée :</span> Sans engagement</div>
-      </div>
-    </div>
-    <div class="text-right text-sm">
-      <div>Poêle : <strong>90 €</strong></div>
-      <div>Chaudière : <strong>149 €</strong></div>
-    </div>
-  </div>
-  
-</label>
-
-        
-<label class="flex cursor-pointer flex-col gap-2 rounded-xl border p-3">
-  <div class="flex items-center justify-between">
-    <div class="flex items-center gap-3">
-      <input type="checkbox" class="h-5 w-5">
-      <div>
-        <div class="text-base font-semibold">Argent</div>
-        <div class="text-xs text-neutral-600">Performance & confort</div>
-        <div class="text-xs text-neutral-600"><span class="font-medium">Durée :</span> Engagement 2 ans</div>
-      </div>
-    </div>
-    <div class="text-right text-sm">
-      <div>Poêle : <strong>190 €</strong></div>
-      <div>Chaudière : <strong>199 €</strong></div>
-    </div>
-  </div>
-  
-</label>
-
-        
-<label class="flex cursor-pointer flex-col gap-2 rounded-xl border p-3">
-  <div class="flex items-center justify-between">
-    <div class="flex items-center gap-3">
-      <input type="checkbox" class="h-5 w-5">
-      <div>
-        <div class="text-base font-semibold">Or</div>
-        <div class="text-xs text-neutral-600">Sérénité totale</div>
-        <div class="text-xs text-neutral-600"><span class="font-medium">Durée :</span> Engagement 3 ans</div>
-      </div>
-    </div>
-    <div class="text-right text-sm">
-      <div>Poêle : <strong>240 €</strong></div>
-      <div>Chaudière : <strong>249 €</strong></div>
-    </div>
-  </div>
-  <div class="text-xs text-neutral-600">Assistance dépannage 7/7j • MO dépannage gratuite (hors déplacement & pièces) • Priorité</div>
-</label>
-
-      </div>
-    </div>
-  </section>
-
-  <section class="mt-6">
-    <h3 class="mb-2 text-lg font-semibold">4) OFFRE DUO (–50 % sur le 2ᵉ système le même jour &amp; à la même adresse)</h3>
-    <div class="rounded-xl border bg-white p-4">
-      <div class="grid gap-3 grid-cols-1 md:grid-cols-2">
-        <label class="flex items-center gap-2 text-sm font-medium"><input type="checkbox" class="h-4 w-4 rounded border-neutral-400"><span>Activer l’offre DUO</span></label>
-        <div class="text-xs text-neutral-600">Remise appliquée sur le forfait le moins cher. Hors déplacement &amp; pièces. Non cumulable.</div>
-      </div>
-      <div class="mt-3 text-sm font-semibold">Système n°2 (à compléter si offre DUO)</div>
-      <div class="grid gap-3 grid-cols-1 md:grid-cols-2 mt-2">
-        <label class="flex items-center gap-2 text-sm font-medium"><input type="checkbox" class="h-4 w-4 rounded border-neutral-400"><span>Poêle - granulés</span></label>
-        <label class="flex items-center gap-2 text-sm font-medium"><input type="checkbox" class="h-4 w-4 rounded border-neutral-400"><span>Poêle - bois</span></label>
-        <label class="flex items-center gap-2 text-sm font-medium"><input type="checkbox" class="h-4 w-4 rounded border-neutral-400"><span>Chaudière - gaz</span></label>
-        <label class="flex items-center gap-2 text-sm font-medium"><input type="checkbox" class="h-4 w-4 rounded border-neutral-400"><span>Chaudière - fioul</span></label>
-      </div>
-      <div class="grid gap-3 grid-cols-1 md:grid-cols-3 mt-3">
-        <label class="flex flex-col text-sm"><span class="mb-1 font-medium">Marque</span><input class="rounded-lg border px-3 py-2 outline-none focus:ring-2 focus:ring-yellow-400"></label>
-        <label class="flex flex-col text-sm"><span class="mb-1 font-medium">Modèle</span><input class="rounded-lg border px-3 py-2 outline-none focus:ring-2 focus:ring-yellow-400"></label>
-        <label class="flex flex-col text-sm"><span class="mb-1 font-medium">N° de série</span><input class="rounded-lg border px-3 py-2 outline-none focus:ring-2 focus:ring-yellow-400"></label>
-      </div>
-    </div>
-  </section>
-
-  <section class="mt-6">
-    <h3 class="mb-2 text-lg font-semibold">5) Conditions et frais</h3>
-    <div class="rounded-xl border bg-white p-4">
-      <ul class="list-disc pl-6 text-sm leading-relaxed text-neutral-700">
-        <li>Frais de déplacement : <strong>20 à 60 €</strong> selon la distance d’intervention et le nombre de techniciens déployés.</li>
-        <li>Durée d’engagement : <strong>Bronze sans engagement</strong> • <strong>Argent 2 ans</strong> • <strong>Or 3 ans</strong>. Reconduction tacite à échéance selon l’offre (résiliation possible par courrier/mail 30 jours avant).</li>
-        <li>Prix TTC. Pièces détachées, désembouage et réglages spécifiques : hors contrat.</li>
-        <li>Interventions sous réserve d’accessibilité et d’état des installations.</li>
-      </ul>
-    </div>
-  </section>
-
-  <section class="mt-6">
-    <h3 class="mb-2 text-lg font-semibold">6) Validation</h3>
-    <div class="rounded-xl border bg-white p-4">
-      <div class="grid gap-3 grid-cols-1 md:grid-cols-3">
-        <label class="flex flex-col text-sm"><span class="mb-1 font-medium">Date de souscription</span><input type="date" value="2025-08-23" class="rounded-lg border px-3 py-2 outline-none focus:ring-2 focus:ring-yellow-400"></label>
-        <label class="flex flex-col text-sm"><span class="mb-1 font-medium">Lieu</span><input class="rounded-lg border px-3 py-2 outline-none focus:ring-2 focus:ring-yellow-400"></label>
-        <label class="flex items-center gap-2 text-sm font-medium"><input type="checkbox" class="h-4 w-4 rounded border-neutral-400"><span>J’ai lu et j’accepte les conditions du contrat</span></label>
-      </div>
-      <div class="mt-6 grid gap-6 md:grid-cols-2">
-        <div>
-          <div class="mb-2 text-sm font-semibold">Signature du client (précédée de la mention « Lu et approuvé »)</div>
-          <div class="h-32 rounded-xl border-2 border-dashed"></div>
-          <div class="mt-2 text-xs text-neutral-600">Nom lisible : __________________________</div>
-          <div class="text-xs text-neutral-600">Date : ____ / ____ / ______</div>
+      <div class="mx-auto max-w-6xl bg-white p-6">
+        <div class="flex items-start justify-between">
+          <div>
+            <h2 class="text-2xl font-bold">Contrat d’entretien — Souscription</h2>
+            <p class="text-sm text-neutral-600">Poêles à granulés et bois • Chaudières gaz et fioul</p>
+          </div>
+          <div class="text-right text-sm">
+            <div class="font-semibold">BOGLIONI Bâtiment &amp; Énergie</div>
+            <div>Tél. 06 44 02 70 07 • 03 82 20 86 18</div>
+            <div>contact@boglioni.fr</div>
+            <div>Lorraine - Grand Est</div>
+            <div>SIREN 890 032 220 — www.boglioni.fr</div>
+          </div>
         </div>
-        <div>
-          <div class="mb-2 text-sm font-semibold">Cachet et signature de l’entreprise</div>
-          <div class="h-32 rounded-xl border-2 border-dashed"></div>
-          <div class="mt-2 text-xs text-neutral-600">Nom lisible : __________________________</div>
-          <div class="text-xs text-neutral-600">Date : ____ / ____ / ______</div>
-        </div>
+
+        <section class="mt-6">
+          <h3 class="mb-2 text-lg font-semibold">1) Informations client</h3>
+          <div class="rounded-xl border bg-white p-4">
+            <div class="grid gap-3 grid-cols-1 md:grid-cols-2">
+              <label class="flex flex-col text-sm"><span class="mb-1 font-medium">Nom / Prénom</span><input class="rounded-lg border px-3 py-2 outline-none focus:ring-2 focus:ring-yellow-400"></label>
+              <label class="flex flex-col text-sm"><span class="mb-1 font-medium">Téléphone</span><input class="rounded-lg border px-3 py-2 outline-none focus:ring-2 focus:ring-yellow-400"></label>
+              <label class="flex flex-col text-sm"><span class="mb-1 font-medium">Email</span><input type="email" class="rounded-lg border px-3 py-2 outline-none focus:ring-2 focus:ring-yellow-400"></label>
+              <label class="flex flex-col text-sm"><span class="mb-1 font-medium">Adresse</span><input class="rounded-lg border px-3 py-2 outline-none focus:ring-2 focus:ring-yellow-400"></label>
+              <label class="flex flex-col text-sm"><span class="mb-1 font-medium">Code postal</span><input class="rounded-lg border px-3 py-2 outline-none focus:ring-2 focus:ring-yellow-400"></label>
+              <label class="flex flex-col text-sm"><span class="mb-1 font-medium">Ville</span><input class="rounded-lg border px-3 py-2 outline-none focus:ring-2 focus:ring-yellow-400"></label>
+            </div>
+          </div>
+        </section>
+
+        <section class="mt-6">
+          <h3 class="mb-2 text-lg font-semibold">2) Système principal (à cocher)</h3>
+          <div class="rounded-xl border bg-white p-4">
+            <div class="grid gap-3 grid-cols-1 md:grid-cols-2">
+              <label class="flex items-center gap-2 text-sm font-medium"><input type="checkbox" class="h-4 w-4 rounded border-neutral-400"><span>Poêle - granulés</span></label>
+              <label class="flex items-center gap-2 text-sm font-medium"><input type="checkbox" class="h-4 w-4 rounded border-neutral-400"><span>Poêle - bois</span></label>
+              <label class="flex items-center gap-2 text-sm font-medium"><input type="checkbox" class="h-4 w-4 rounded border-neutral-400"><span>Chaudière - gaz</span></label>
+              <label class="flex items-center gap-2 text-sm font-medium"><input type="checkbox" class="h-4 w-4 rounded border-neutral-400"><span>Chaudière - fioul</span></label>
+            </div>
+            <div class="grid gap-3 grid-cols-1 md:grid-cols-3 mt-3">
+              <label class="flex flex-col text-sm"><span class="mb-1 font-medium">Marque</span><input class="rounded-lg border px-3 py-2 outline-none focus:ring-2 focus:ring-yellow-400"></label>
+              <label class="flex flex-col text-sm"><span class="mb-1 font-medium">Modèle</span><input class="rounded-lg border px-3 py-2 outline-none focus:ring-2 focus:ring-yellow-400"></label>
+              <label class="flex flex-col text-sm"><span class="mb-1 font-medium">N° de série</span><input class="rounded-lg border px-3 py-2 outline-none focus:ring-2 focus:ring-yellow-400"></label>
+            </div>
+            <div class="grid gap-3 grid-cols-1 md:grid-cols-4 mt-3">
+              <label class="flex flex-col text-sm"><span class="mb-1 font-medium">Puissance (kW)</span><input class="rounded-lg border px-3 py-2 outline-none focus:ring-2 focus:ring-yellow-400"></label>
+              <label class="flex flex-col text-sm"><span class="mb-1 font-medium">Année d’installation</span><input class="rounded-lg border px-3 py-2 outline-none focus:ring-2 focus:ring-yellow-400"></label>
+              <label class="flex flex-col text-sm md:col-span-2"><span class="mb-1 font-medium">Adresse d’intervention (si différente)</span><input class="rounded-lg border px-3 py-2 outline-none focus:ring-2 focus:ring-yellow-400"></label>
+            </div>
+          </div>
+        </section>
+
+        <section class="mt-6">
+          <h3 class="mb-2 text-lg font-semibold">3) Offre choisie (cochez)</h3>
+          <div class="rounded-xl border bg-white p-4 space-y-5">
+            <!-- Souscription Poêle -->
+            <div>
+              <div class="mb-2 font-semibold">Poêle à granulés et bois</div>
+              <div class="grid grid-cols-1 gap-3 md:grid-cols-3">
+                <label class="flex cursor-pointer flex-col gap-2 rounded-xl border p-3">
+                  <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-3">
+                      <input type="checkbox" class="h-5 w-5">
+                      <div>
+                        <div class="text-base font-semibold">Bronze</div>
+                        <div class="text-xs text-neutral-600">Sécurité &amp; conformité</div>
+                        <div class="text-xs text-neutral-600"><span class="font-medium">Durée :</span> Sans engagement</div>
+                      </div>
+                    </div>
+                    <div class="text-right text-sm">
+                      <div>Poêle : <strong>80 €</strong></div>
+                    </div>
+                  </div>
+                </label>
+
+                <label class="flex cursor-pointer flex-col gap-2 rounded-xl border p-3">
+                  <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-3">
+                      <input type="checkbox" class="h-5 w-5">
+                      <div>
+                        <div class="text-base font-semibold">Argent</div>
+                        <div class="text-xs text-neutral-600">Performance &amp; confort</div>
+                        <div class="text-xs text-neutral-600"><span class="font-medium">Durée :</span> Engagement 2 ans</div>
+                      </div>
+                    </div>
+                    <div class="text-right text-sm">
+                      <div>Poêle : <strong>160 €</strong></div>
+                    </div>
+                  </div>
+                </label>
+
+                <label class="flex cursor-pointer flex-col gap-2 rounded-xl border p-3">
+                  <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-3">
+                      <input type="checkbox" class="h-5 w-5">
+                      <div>
+                        <div class="text-base font-semibold">Or</div>
+                        <div class="text-xs text-neutral-600">Sérénité totale</div>
+                        <div class="text-xs text-neutral-600"><span class="font-medium">Durée :</span> Engagement 3 ans</div>
+                      </div>
+                    </div>
+                    <div class="text-right text-sm">
+                      <div>Poêle : <strong>240 €</strong></div>
+                    </div>
+                  </div>
+                  <div class="text-xs text-neutral-600">Assistance dépannage 7/7j • MO dépannage gratuite (hors déplacement &amp; pièces) • Priorité</div>
+                </label>
+              </div>
+            </div>
+
+            <!-- Souscription Chaudière -->
+            <div>
+              <div class="mb-2 font-semibold">Chaudières gaz et fioul</div>
+              <div class="grid grid-cols-1 gap-3 md:grid-cols-3">
+                <label class="flex cursor-pointer flex-col gap-2 rounded-xl border p-3">
+                  <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-3">
+                      <input type="checkbox" class="h-5 w-5">
+                      <div>
+                        <div class="text-base font-semibold">Acier</div>
+                        <div class="text-xs text-neutral-600">Entretien réglementaire</div>
+                        <div class="text-xs text-neutral-600"><span class="font-medium">Durée :</span> Sans engagement</div>
+                      </div>
+                    </div>
+                    <div class="text-right text-sm">
+                      <div>Chaudière : <strong>120 €</strong></div>
+                    </div>
+                  </div>
+                </label>
+
+                <label class="flex cursor-pointer flex-col gap-2 rounded-xl border p-3">
+                  <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-3">
+                      <input type="checkbox" class="h-5 w-5">
+                      <div>
+                        <div class="text-base font-semibold">Cuivre</div>
+                        <div class="text-xs text-neutral-600">Conformité totale</div>
+                        <div class="text-xs text-neutral-600"><span class="font-medium">Durée :</span> Engagement 2 ans</div>
+                      </div>
+                    </div>
+                    <div class="text-right text-sm">
+                      <div>Chaudière : <strong>180 €</strong></div>
+                    </div>
+                  </div>
+                </label>
+
+                <label class="flex cursor-pointer flex-col gap-2 rounded-xl border p-3">
+                  <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-3">
+                      <input type="checkbox" class="h-5 w-5">
+                      <div>
+                        <div class="text-base font-semibold">Diamant</div>
+                        <div class="text-xs text-neutral-600">Sécurité absolue</div>
+                        <div class="text-xs text-neutral-600"><span class="font-medium">Durée :</span> Engagement 3 ans</div>
+                      </div>
+                    </div>
+                    <div class="text-right text-sm">
+                      <div>Chaudière : <strong>260 €</strong></div>
+                    </div>
+                  </div>
+                </label>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="mt-6">
+          <h3 class="mb-2 text-lg font-semibold">4) OFFRE DUO (–50 % sur le 2ᵉ système le même jour &amp; à la même adresse)</h3>
+          <div class="rounded-xl border bg-white p-4">
+            <div class="grid gap-3 grid-cols-1 md:grid-cols-2">
+              <label class="flex items-center gap-2 text-sm font-medium"><input type="checkbox" class="h-4 w-4 rounded border-neutral-400"><span>Activer l’offre DUO</span></label>
+              <div class="text-xs text-neutral-600">Remise appliquée sur le forfait le moins cher. Hors déplacement &amp; pièces. Non cumulable.</div>
+            </div>
+            <div class="mt-3 text-sm font-semibold">Système n°2 (à compléter si offre DUO)</div>
+            <div class="grid gap-3 grid-cols-1 md:grid-cols-2 mt-2">
+              <label class="flex items-center gap-2 text-sm font-medium"><input type="checkbox" class="h-4 w-4 rounded border-neutral-400"><span>Poêle - granulés</span></label>
+              <label class="flex items-center gap-2 text-sm font-medium"><input type="checkbox" class="h-4 w-4 rounded border-neutral-400"><span>Poêle - bois</span></label>
+              <label class="flex items-center gap-2 text-sm font-medium"><input type="checkbox" class="h-4 w-4 rounded border-neutral-400"><span>Chaudière - gaz</span></label>
+              <label class="flex items-center gap-2 text-sm font-medium"><input type="checkbox" class="h-4 w-4 rounded border-neutral-400"><span>Chaudière - fioul</span></label>
+            </div>
+          </div>
+        </section>
+
+        <section class="mt-6">
+          <h3 class="mb-2 text-lg font-semibold">5) Conditions et frais</h3>
+          <div class="rounded-xl border bg-white p-4">
+            <ul class="list-disc pl-6 text-sm leading-relaxed text-neutral-700">
+              <li>Frais de déplacement : <strong>20 à 60 €</strong> selon la distance d’intervention et le nombre de techniciens déployés.</li>
+              <li>Durée d’engagement : <strong>Poêle</strong> — Bronze sans engagement • Argent 2 ans • Or 3 ans. <strong>Chaudière</strong> — Acier sans engagement • Cuivre 2 ans • Diamant 3 ans. Reconduction tacite ; résiliation possible par courrier/mail 30 jours avant échéance.</li>
+              <li>Prix <strong>nets</strong>. Non assujetti à la TVA – art. 293 B du CGI. Pièces détachées, désembouage et réglages spécifiques : hors contrat.</li>
+              <li>Interventions sous réserve d’accessibilité et d’état des installations.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="mt-6">
+          <h3 class="mb-2 text-lg font-semibold">6) Validation</h3>
+          <div class="rounded-xl border bg-white p-4">
+            <div class="grid gap-3 grid-cols-1 md:grid-cols-3">
+              <label class="flex flex-col text-sm"><span class="mb-1 font-medium">Date de souscription</span><input type="date" class="rounded-lg border px-3 py-2 outline-none focus:ring-2 focus:ring-yellow-400"></label>
+              <label class="flex flex-col text-sm"><span class="mb-1 font-medium">Lieu</span><input class="rounded-lg border px-3 py-2 outline-none focus:ring-2 focus:ring-yellow-400"></label>
+              <label class="flex items-center gap-2 text-sm font-medium"><input type="checkbox" class="h-4 w-4 rounded border-neutral-400"><span>J’ai lu et j’accepte les conditions du contrat</span></label>
+            </div>
+            <div class="mt-6 grid gap-6 md:grid-cols-2">
+              <div>
+                <div class="mb-2 text-sm font-semibold">Signature du client (précédée de la mention « Lu et approuvé »)</div>
+                <div class="h-32 rounded-xl border-2 border-dashed"></div>
+                <div class="mt-2 text-xs text-neutral-600">Nom lisible : __________________________</div>
+                <div class="text-xs text-neutral-600">Date : ____ / ____ / ______</div>
+              </div>
+              <div>
+                <div class="mb-2 text-sm font-semibold">Cachet et signature de l’entreprise</div>
+                <div class="h-32 rounded-xl border-2 border-dashed"></div>
+                <div class="mt-2 text-xs text-neutral-600">Nom lisible : __________________________</div>
+                <div class="text-xs text-neutral-600">Date : ____ / ____ / ______</div>
+              </div>
+            </div>
+            <div class="mt-8 border-t pt-4 text-xs text-neutral-600">BOGLIONI Bâtiment &amp; Énergie — SIREN 890 032 220 — www.boglioni.fr — contact@boglioni.fr — 06 44 02 70 07 • 03 82 20 86 18 — Lorraine - Grand Est</div>
+          </div>
+        </section>
       </div>
-      <div class="mt-8 border-t pt-4 text-xs text-neutral-600">BOGLIONI Bâtiment &amp; Énergie — SIREN 890 032 220 — www.boglioni.fr — contact@boglioni.fr — 06 44 02 70 07 • 03 82 20 86 18 — Lorraine - Grand Est</div>
-    </div>
-  </section>
-</div>
-</section>
+    </section>
   </main>
-
-  <section class="mx-auto max-w-6xl px-6 pb-8 print:hidden">
-    <details class="rounded-xl border bg-white p-4 text-xs text-neutral-700">
-      <summary class="cursor-pointer select-none font-semibold">Diagnostics (tests intégrés)</summary>
-      <ul class="mt-3 space-y-1">
-        <li class="flex items-center gap-2"><span>✅</span><span>Poêle: 3 forfaits</span></li>
-        <li class="flex items-center gap-2"><span>✅</span><span>Chaudière: 3 forfaits</span></li>
-        <li class="flex items-center gap-2"><span>✅</span><span>Ribbons mis à jour</span></li>
-        <li class="flex items-center gap-2"><span>✅</span><span>Frais déplacement 20–60€ (poêle &amp; chaudière)</span></li>
-        <li class="flex items-center gap-2"><span>✅</span><span>Téléphones, email, zone, SIREN &amp; site présents</span></li>
-        <li class="flex items-center gap-2"><span>✅</span><span>Engagements: Bronze sans engagement • Argent 2 ans • Or 3 ans</span></li>
-      </ul>
-    </details>
-  </section>
 
   <footer class="w-full border-t bg-white print:hidden">
     <div class="mx-auto max-w-6xl px-6 py-6 text-xs text-neutral-500">
-      © <span id="year"></span> BOGLIONI Bâtiment &amp; Énergie — SIREN 890 032 220 — TVA art. 293 B du CGI — www.boglioni.fr
+      © <span id="year"></span> BOGLIONI Bâtiment &amp; Énergie — SIREN 890 032 220 — <strong>Non assujetti à la TVA – art. 293 B du CGI</strong> — www.boglioni.fr
     </div>
   </footer>
 
@@ -406,8 +460,9 @@
     flyerBtn.addEventListener('click', () => setActive('flyer'));
     formBtn.addEventListener('click', () => setActive('form'));
     printBtn.addEventListener('click', () => window.print());
-    setActive('flyer'); // default view switched to flyer
+    setActive('flyer');
     document.getElementById('year').textContent = new Date().getFullYear();
+    if (location.hash === '#souscription') { setActive('form'); }
   </script>
 </body>
 </html>
